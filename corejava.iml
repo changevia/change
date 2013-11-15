@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jmxtools" level="project" />
+    <orderEntry type="module-library">
+      <library name="apacheftp">
+        <CLASSES>
+          <root url="jar://D:/WORK/cintel.com.cn/opmex/apacheFtp/apacheFtp/aopalliance-1.0.jar!/" />
+          <root url="jar://D:/WORK/cintel.com.cn/opmex/apacheFtp/apacheFtp/ftplet-api-1.0.6.jar!/" />
+          <root url="jar://D:/WORK/cintel.com.cn/opmex/apacheFtp/apacheFtp/ftpserver-core-1.0.6.jar!/" />
+          <root url="jar://D:/WORK/cintel.com.cn/opmex/apacheFtp/apacheFtp/jcl-over-slf4j-1.5.2.jar!/" />
+          <root url="jar://D:/WORK/cintel.com.cn/opmex/apacheFtp/apacheFtp/mina-core-2.0.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Odn/core/frameworks/java/lib/commons/slf4j-log4j12-1.5.11.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Odn/core/frameworks/java/lib/commons/slf4j-api-1.5.8.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Odn/core/frameworks/java/lib/log4j/log4j-1.2.16.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/ftpserver-core-1.0.6-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/mina-core-2.0.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ideaLibSources/ftplet-api-1.0.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
