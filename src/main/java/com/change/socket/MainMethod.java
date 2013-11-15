@@ -11,6 +11,5 @@ public class MainMethod {
 
 
     public static void main(String[] arg) {
-        //add by changejava Time:13-11-15下午3:22
     }
 }
