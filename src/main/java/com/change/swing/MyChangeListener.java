@@ -16,8 +16,6 @@ import static com.change.swing.CheckBoxTest.showActivity;
 public class MyChangeListener implements ChangeListener, Listener {
 
     Object item = null;
-    boolean activitied = false;
-
     @Override
     public void stateChanged(ChangeEvent e) {
         stackTrace(e);
@@ -58,4 +56,6 @@ public class MyChangeListener implements ChangeListener, Listener {
     public void setActivitied(boolean activitied) {
         this.activitied =activitied;
     }
+
+    boolean activitied = false;
 }
