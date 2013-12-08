@@ -16,6 +16,9 @@ public class LineNumberReaderExample {
         File file = new File("D:\\filetest\\dest\\1.xml");
         exists(file);
         print(LineNumberReaderExample.getFileLineCount(new FileInputStream(file)));
+
+
+
     }
 
     public static long getFileLineCount(InputStream in) {

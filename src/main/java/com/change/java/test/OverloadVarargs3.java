@@ -1,5 +1,6 @@
 package com.change.java.test;
 
+import static com.change.java.util.Print.print;
 import static com.change.java.util.Print.printArray1;
 
 /**
@@ -9,8 +10,18 @@ import static com.change.java.util.Print.printArray1;
  */
 public class OverloadVarargs3 {
 
+    native void func();
+
+    native void funca1();
+
+    public native void func1();
+
     static void f(int i,Character... args) {
         printArray1(args);
+    }
+
+    public  void fun(){
+
     }
 
     static void f(float i, Character... args) {
