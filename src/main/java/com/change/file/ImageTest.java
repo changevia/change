@@ -1,16 +1,10 @@
 package com.change.file;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
-
-import static com.change.java.util.Print.print;
 
 
 /**
@@ -20,11 +14,11 @@ import static com.change.java.util.Print.print;
  */
 public class ImageTest {
 
-    private static final int IMG_WIDTH = 100;
-    private static final int IMG_HEIGHT = 100;
+    private static final int IMG_WIDTH = 50;
+    private static final int IMG_HEIGHT = 30;
 
     public static void main(String[] args) throws IOException {
-        BufferedImage originalImage = ImageIO.read(new File("D:/image/1.jpg"));
+        BufferedImage originalImage = ImageIO.read(new File("C:\\tools\\code\\study\\PQQ\\PQQ\\pics\\button_login_normal.png"));
         int type  = originalImage.getType() ==0 ?BufferedImage.TYPE_INT_ARGB:originalImage.getType();
         byte b = 1;
         BufferedImage resizeImageJpg = resizeImage(originalImage, type);

@@ -1,7 +1,5 @@
 package com.change.socket;
 
-import java.io.File;
-
 /**
  * User: changejava
  * Date: 13-11-15
@@ -10,6 +8,18 @@ import java.io.File;
 public class MainMethod {
 
 
-    public static void main(String[] arg) {
+    public static void main(String[] arg) throws InterruptedException {
+        for (; ; ) {
+            System.out.println("=======================");
+            Thread.sleep(5000L);
+            System.out.println("=======================");
+
+            System.out.println();
+            addHotSwapMethod();
+        }
+    }
+
+    private static void addHotSwapMethod() {
+        System.out.println("addHotSwapMethod!!");
     }
 }
